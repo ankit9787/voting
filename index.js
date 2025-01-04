@@ -11,6 +11,6 @@ app.use(bodyParser.json());
 const port = process.env.PORT || 5000;
 
 app.listen(port, async () => {
-    await connectDb();
+    // await connectDb();
     console.log("Server started");
 })
